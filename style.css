@@ -26,10 +26,9 @@ body {
 }
 
 #txt-input {
+  margin-left: 30px;
   margin-top: 20px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   height: 20vh;
   width: 50vh;
   background-color: var(--primary);
@@ -108,7 +107,7 @@ body {
 
 #ferb {
   height: fit-content;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .hero-translator {
@@ -116,6 +115,7 @@ body {
   overflow: hidden;
   flex-wrap: wrap;
   justify-content: space-between;
+  justify-content: center;
 }
 .secondary-translator {
   display: flex;
